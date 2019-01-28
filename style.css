@@ -2,7 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-image: url('images/backlit.jpg');
     /* background-image: url('images/colors.jpg'); */
-    background-size: 100%;
+    /* background-size: 100%; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
