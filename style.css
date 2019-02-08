@@ -29,10 +29,16 @@ body {
     border-top: #e8eaf6 solid 2px;
 }
 
+.headernav {
+    width: 100vw;
+    padding-right: 0;
+}
+
 .logo {
     /* font-family: 'Raleway', sans-serif; */
     /* font-family: 'Rock Salt', cursive; */
     font-family: 'Gruppo', cursive;
+    font-size: 200%;
 }
 
 .card-header{
@@ -92,6 +98,15 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+
+    .logo {
+        font-size: 100%;
+    }
+
+    .portrait{
+        width: 60%;
+        margin: auto;
+    }
 
     .carousel-img{
         width: 70vw;
